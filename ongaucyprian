@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cyprian Ong’au Morang’a — Portfolio</title>
+  <style>
+    :root { --bg:#0f1115; --card:#161a22; --text:#e6e6e6; --muted:#9aa4b2; --accent:#7aa2f7; --chip:#232838; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:1000px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;background:rgba(15,17,21,.7);backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid #222}
+    header .bar{display:flex;align-items:center;justify-content:space-between;min-height:56px}
+    nav a{margin-left:18px;color:var(--muted)}
+    .hero{display:grid;grid-template-columns:1fr;gap:24px;padding:40px 0}
+    @media(min-width:900px){.hero{grid-template-columns:1.2fr .8fr}}
+    .badge{display:inline-flex;align-items:center;gap:8px;border:1px solid #2b3142;border-radius:999px;padding:6px 10px;color:var(--muted);font-size:12px}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+    .chip{background:var(--chip);color:#c8d0dd;border:1px solid #2b3142;border-radius:999px;padding:4px 10px;font-size:12px}
+    .btn{display:inline-flex;align-items:center;gap:8px;border-radius:10px;border:1px solid #2b3142;padding:10px 14px;color:#e6e6e6}
+    .grid{display:grid;gap:16px}
+    @media(min-width:700px){.grid.cols-2{grid-template-columns:repeat(2,1fr)}.grid.cols-3{grid-template-columns:repeat(3,1fr)}}
+    .card{background:var(--card);border:1px solid #202534;border-radius:16px;padding:16px}
+    h1,h2{line-height:1.2;margin:0 0 8px}
+    h1{font-size:34px} h2{font-size:22px;margin-top:12px}
+    h3{margin:0 0 6px;font-size:16px}
+    p{margin:8px 0;color:#cbd3df}
+    small, .muted{color:var(--muted)}
+    ul{margin:8px 0 0 20px;color:#cbd3df}
+    footer{border-top:1px solid #222;color:var(--muted);padding:24px 0;margin-top:40px}
+    .section{padding:28px 0}
+    .row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap bar">
+      <strong>Cyprian Ong’au Morang’a</strong>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#certs">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <div class="badge">Open to opportunities</div>
+        <h1>Operations & Logistics Leader • Finance & Urban Sustainability</h1>
+        <p class="muted">Versatile professional in finance, operations, logistics, and project management. Drives KPI improvements, lean process optimization, and ESG‑aware decisions using strong data and technology skills.</p>
+        <div class="chips">
+          <span class="chip">Malmö, Sweden</span>
+          <span class="chip">Lean Six Sigma</span>
+          <span class="chip">Tableau</span>
+          <span class="chip">SAP S/4HANA</span>
+          <span class="chip">ESG Integration</span>
+        </div>
+        <div class="row" style="margin-top:10px">
+          <a class="btn" href="#projects">See projects</a>
+          <a class="btn" href="Cyprian_Ongau_CV.pdf" download>Download CV</a>
+        </div>
+        <p class="muted" style="margin-top:8px">
+          <a href="mailto:ongauc@gmail.com">ongauc@gmail.com</a> · +46 793 540 679 · 
+          <a href="https://linkedin.com/in/cyprian-ong-au-016b7185">LinkedIn</a>
+        </p>
+      </div>
+      <div class="card">
+        <h3>Highlights</h3>
+        <ul>
+          <li>Led hub operations meeting delivery accuracy, profitability & productivity KPIs.</li>
+          <li>Data-driven improvements using Tableau & Google Analytics.</li>
+          <li>Spearheaded process innovations and continuous improvement.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>Finance, operations, and logistics professional with experience across last‑mile delivery, insurance services, and education project coordination. Comfortable in cross‑functional leadership, stakeholder management, and continuous improvement.</p>
+      <div class="chips">
+        <span class="chip">Budgeting & Forecasting</span>
+        <span class="chip">Advanced Financial Modeling</span>
+        <span class="chip">Risk Analysis</span>
+        <span class="chip">Supply Chain</span>
+        <span class="chip">KPI Improvement</span>
+        <span class="chip">MySQL • R • Excel</span>
+        <span class="chip">Digital Transformation</span>
+        <span class="chip">Sustainability & ESG</span>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Site Manager — MoveByBike Europe AB</h3>
+          <small>Malmö, Sweden • Sep 2021 – Present</small>
+          <ul>
+            <li>Directed hub operations to meet delivery accuracy, profitability, and productivity KPIs.</li>
+            <li>Used Tableau & Google Analytics to identify bottlenecks and enhance efficiency.</li>
+            <li>Led process innovations and continuous improvement initiatives.</li>
+            <li>Ensured safety compliance with Swedish regulatory standards.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Traffic Manager — MoveByBike Europe AB</h3>
+          <small>Malmö, Sweden • Nov 2020 – Dec 2021</small>
+          <ul>
+            <li>Optimized shipping operations and workflow management for higher on‑time performance.</li>
+            <li>Applied data‑driven insights to improve core KPIs.</li>
+            <li>Developed training programs that raised driver performance and safety.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Operations Team Lead — MoveByBike Europe AB</h3>
+          <small>Malmö, Sweden • Sep 2019 – Nov 2020</small>
+          <ul>
+            <li>Oversaw daily last‑mile delivery operations, ensuring timeliness and customer satisfaction.</li>
+            <li>Mentored team members to improve performance and compliance.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Insurance Service Agent — Jubilee Life Insurance Co. Ltd.</h3>
+          <small>Nairobi, Kenya • Jan 2016 – Apr 2018</small>
+          <ul>
+            <li>Provided customized financial and insurance solutions for clients.</li>
+            <li>Conducted financial assessments and risk analysis.</li>
+            <li>Designed a sales strategy that improved performance and retention.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Project Coordinator — DALC Education</h3>
+          <small>Nairobi, Kenya • Aug 2013 – Sep 2015</small>
+          <ul>
+            <li>Coordinated construction projects from budgeting through delivery.</li>
+            <li>Controlled resources and expenses to keep projects on track.</li>
+            <li>Drove process evaluation and improvement recommendations.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="certs" class="section">
+      <h2>Certifications</h2>
+      <div class="grid cols-3">
+        <div class="card"><strong>Lean Six Sigma Green Belt</strong><br><span class="muted">Credential</span></div>
+        <div class="card"><strong>CPA Section 1</strong><br><span class="muted">Credential</span></div>
+        <div class="card"><strong>Financial Modeling & Corporate Finance</strong><br><span class="muted">Credential</span></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Omlastningscentral Bike Project — Eskilstuna Kommun (2023)</h3>
+          <p>Implemented a sustainable bike transportation solution to reduce city traffic congestion.</p>
+          <p class="muted">Focus: Operations • Urban Logistics • Sustainability</p>
+        </div>
+        <div class="card">
+          <h3>Stockholm Heat Project — Senseable Stockholm Lab (2024)</h3>
+          <p>Analyzed urban heat islands in Hammarby, Stockholm using data‑driven methods.</p>
+          <p class="muted">Focus: Data Analytics • Urban Planning • ESG</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>Malmö University</strong><br>
+          Master’s in Urban Planning & Sustainability — <span class="muted">Ongoing</span>
+        </div>
+        <div class="card">
+          <strong>Kisii University</strong><br>
+          B.Com (Finance, Banking & Management) — <span class="muted">2013</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Say hello</h3>
+          <p class="muted">I usually reply within 1–2 business days.</p>
+          <form onsubmit="event.preventDefault(); alert('This is a static demo form. Connect it to a service to receive submissions.');">
+            <div class="grid"><input style="padding:10px;border-radius:8px;border:1px solid #31384b;background:#0e121a;color:#e6e6e6" placeholder="Your name" /></div>
+            <div class="grid" style="margin-top:8px"><input type="email" style="padding:10px;border-radius:8px;border:1px solid #31384b;background:#0e121a;color:#e6e6e6" placeholder="Your email" /></div>
+            <div class="grid" style="margin-top:8px"><textarea rows="4" style="padding:10px;border-radius:8px;border:1px solid #31384b;background:#0e121a;color:#e6e6e6" placeholder="Your message"></textarea></div>
+            <div class="row" style="margin-top:10px"><button class="btn" type="submit">Send</button></div>
+          </form>
+        </div>
+        <div class="card">
+          <h3>Direct</h3>
+          <p><a href="mailto:ongauc@gmail.com">ongauc@gmail.com</a><br/>+46 793 540 679<br/><a href="https://linkedin.com/in/cyprian-ong-au-016b7185">LinkedIn</a></p>
+          <p class="muted">Malmö, Sweden</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="yr"></span> Cyprian Ong’au Morang’a. All rights reserved.</div>
+  </footer>
+  <script>document.getElementById('yr').textContent=new Date().getFullYear()</script>
+</body>
+</html>
+
+      %PDF-1.4
+%���� ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /ZapfDingbats /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Symbol /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/Contents 12 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/Contents 13 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/PageMode /UseNone /Pages 11 0 R /Type /Catalog
+>>
+endobj
+10 0 obj
+<<
+/Author (\(anonymous\)) /CreationDate (D:20250928092655+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20250928092655+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
+endobj
+11 0 obj
+<<
+/Count 2 /Kids [ 7 0 R 8 0 R ] /Type /Pages
+>>
+endobj
+12 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2196
+>>
+stream
+Gau0ED0+\p&H88.Z(GpD('lfO2KN4tE[8n8hCd1#F=(@J/W;<j`*"i8Sc8DeA8FpH#2EWB8c0d7Fs$*8].7+4_B6u!ocepe0jNR;@+d6*K%4RY@!iL&n\pOsCH^*c_<G&rfBp10"(/FZM`A5^\Q1<m-UoN,#0YPkCg.9fh58_G?$ng/Tm$Cdo?5tJ&Y:%^?Z"O=quI=(08&rB7i6`2nLr8ARY.&V_k1d_m.N_^lr4o\XCVerg0ELA\*e%e/Gaft%0R24ir'W\KS<,r7.:_g7ij,;f1ljHIN,kh(A+,GB%p'rXM`]i5ANU*hl+l2[cEVA95c\K);u%3Z9aXCbN_eAbO(TEg$ABR-/ZK&ohY(:N`""XMET!h8u6'MP7[?q$YcRQ<qkNED0Hdq[6J@VM*h"l0.shHC'O=.U0Ou-`N)"Y)<DnC`aR"L_94kFI#=*kQZWR&^nbE\?4u[AC#>nf19G=(i?Y'.jf5:3>#5]>_Et,#TEGU"/7O)J,s5.YC4VWETI>ZJ&q([m.P^]dObOr6/L%&I$'f>hbDb:[(fGjY,su/dU$)!>%Pj0(i:@9/S&>uW@3-',br`69$^edK.OJCq73!32l7!\UUl*PWo#7KC9-f5pI!r`P1dXUS4G1t!FGlS9)T6DOH4<Yh`HWSG.Z<F-$A1t8rjLPXS?2#r%f&7_-C0Ib!DJe2hX,,[fZ/i\f<n:oem9rKfihc.^>IZXs5Vp_UNdR'RH%mp61$#Vi=@WZ/OQ2!#K*/T73Bmj\dnV_[`cG>h;02>\4Z[L.cV#KMprt,]cmAAn#4"MWF@43Eh>TU%p+ocZh]TF?ja4qG:VM;Y15`ei`<fDi_Oj8,NR0bXMRmS]]T%SOP`uq_@c[%^R/".4G#*)A3LN*i6<rf@Da5\*,Q+s@M%L7gp'>El"j'1X,L8AHDRiiqV?50?5.l5m%9F2&<8L<Am?HD/%>m!o^LDqE/umNOe`J^_)%$&422:I#Bb8nNP=6#iME,8cR0RD4G-m173hVBj4fD'.3k.?AN@\hF]O;=X")'OL-DKO)4Mktf-1XF7)TgGqDoBi2PpfT<16O((,Pb;>ljPY,&_QM6@?#dYL2BU5e!V8Jp9(^%KjBc/`K,[dci`(7Cs]A7'oHe*_n59%jk63D)15;R,>mtZYuNC_3/[WZ8<)YV#;9R8Z!2%_1CAhYqO:_D-*QkehOtK&!q?!$fBY?<^TPnV$+L">!u6)R9(!J+V-mdB?1c[XHE1p=!j8EL@WNmZ1f"am=+/+V-'5to4kX+O1'*dMY=LC,GlkOR';NB=6M]cY0_U+:RJAh<`eXI_D$hON/#.`[SdV]N*b8P*aXlj*:/u.!OdMA9XRi/aHnC*3N#LcV4Zn5T,H3W$B(Q[1>-CZ1nE$JB!a[#'@0<\iiVLC)8YBsnjD82p^&_@68Jfmrpg>3\#WQ38&<TUfP&m>"kQct*kID`XB^G1>+V.#Ka<d=#5XVIZIb/K7A>1,aUIBTauo(hX)e+)WgWQ/qsB9C3TaI/C\"\eiaT/F-hhgS3/f;@_\Vm[QFEl[bt"2W3o&!K2L3AT&u4.G%'rN!Bj8-F=6sLN,UAc.O%hrahq:N,[Tf$o`\GjNFq"?&^%9Y/UKD4+CSg[tR<jSr9==#UPQ-Ng:YYhjGGOsTlaXLf]-7VXKJ5ROL'0F9DLu=HijWVMQA%B)gaak`lUTp\WChO?Cus<<p9MRK`[)")8nrfZ7ssh,"j:-c,6=+bgHI"4'r@OipZR3`\C81F7C4[(H\_@J0/6aZC*(<>2_sOU1PnhAClZ#_)!KX%F-ORMm6-63>=Z`5rSDbiG(6St(u6I&.:KbWF(E7AaQf[^ORY];2GVfrk8;Mn8jAFM(Ac6tM35Tj<UlSg_[9A@%.,7[*Vu!lB1nF3Z&oV1HAFbkPuHZ_m's1S3GG`HrPVIMFKdSbiPe'C-4#J="K>kQ"#\gs93p-S=lq7o\\#<OZ&\TaZTAlhoSsb_7PnF*r'(Gs<92X#?Xqq]_j:K6?V9:K9dsmZ^(sGQ=+4*28&A^i@<hGK]31)N?5aW4H*$Ji;SB/Q18\(EX,ZQ;(<i\EQ^aMU3B8rJRR85eR&%ZR*WdBp(9YgO7/EIol(,l[U@bGp6,?V#"[qWtObUP5@Er)2;Cc&9S5pE%T:-3DdrV&gOh*k/FdVLdqA#qH;-EJaru:N@B<a?qphpDh_8X/GjG5V~>endstream
+endobj
+13 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1285
+>>
+stream
+Gau0CgMYb*&:O:SbgXF3"BeTb0A<m?S"`J5?+^!p(L!PMeeG*HPZn7gp`37m029[/#)j\0&h,VX%aUX_&W#q7pn)g<E&E<`mKemkL(b]o71-p;\/i#l\&djV?6=J6Ema>gIJf/WQeu[,g%s:o<oe2_Ba_hAFXE&Q@[7j%jKlcW8,GlYD_/A:XctHJUfQ_9(k.+rT.^/1(PuVlhF*pj6oUGCf5OsD3ON*`p][9=f4rP"lE[!J*0C@nESQ6KX5%Wa?l@>rmlp/G0.q:a[7@%EgPN\%Soo7O^B'MaJm>Y'$HSJh<nFm;>;\5VQtTL:\1XZ&E]F<(TO<@)QsO*P!-bd+#m"s758:?/=p]b)2)D8`3AWp3!UOI<Ug`C*n>"PEl^@ockn=!sBsF,ho.]Z_kENckU)sRZqe!YP7"M9JZN7M-U2I@*nFI92/6L#i7:pR?i`4rURkW]*ZEMB^C%>l@l+4u8?YnU9]5G5gk4i%2*iUPX8[f(7V,O\YG)9M<lJnu1l6hf$EY0iFg/d1U]M5hoYrnB:$8@c[bS(rR'#*WcQ1-&tPYQFP^n=0=@9\c&^tQX_m.K"+s&`@t`!tn5OqT_6gp#QQ@&UA+NuZ9e(!UAb-k0pC2NL2C-A>=o%LJ7X4,5=9k7(4J<77btm-$!&9./K;;Z&FGYD`%AC!.m:&ZQ/7-ffrPYT<\HF+.LF])hqghp[b*#L/Wh.jfkJ:U<u[ZL-i\3r@APWjJ1#,RC&mb0dR:4X>CF6M?DQ3>M%^gl1n5^K.pD)WroXj<$e@lg0g\R_EX)YKM=$E!6E:P%07gM;Q3"H+S<a^8d'?8qC=7Ct7T[',oQ;ic>=MCS\GG>;PHZfNM2JKRQimFIP7IPL8(@n?K'JG8M<j'[3m<$O1+"o3?>U,>3Y:AXeNkPc4P7AiRrg;<H.onYlgUL0M'_bd[n0ZSfjboo41C\fLc8=pJ*io9g4;gbW\hfc7LbatpDMl@Fs7:/f3tAQ9%sI,]T@EVZ8:BmFUODM]<i6rRBP]QW[4j3/h."p\\t#Ne0$9<-%Uo1b)rOhJI-T;:/SIeD'W0%b9bVI0A@1IbM$]p_Al\T6<<6BYilqD5=::l;9)bDF6<'21bgl-\85%g-h#]K4uuQcelQmhP1[9?"Qs_LEss2`"J0;`=GF.1olNPN\6CSj^W5B/F?gTJJd&XcVIf7.'V`gm^],ES>.<]#$&Bo2)XpmQHhVRipoSg["HNpK4'fLg%fh2f/,+H7U66h!]'oi.DXUr:lW+UA;]t;Kb`fpan/+rWh)or(m~>endstream
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000073 00000 n 
+0000000144 00000 n 
+0000000251 00000 n 
+0000000363 00000 n 
+0000000446 00000 n 
+0000000523 00000 n 
+0000000638 00000 n 
+0000000843 00000 n 
+0000001048 00000 n 
+0000001117 00000 n 
+0000001401 00000 n 
+0000001467 00000 n 
+0000003755 00000 n 
+trailer
+<<
+/ID 
+[<490620997d0ad5993a5bb139094ce561><490620997d0ad5993a5bb139094ce561>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 10 0 R
+/Root 9 0 R
+/Size 14
+>>
+startxref
+5132
+%%EOF
