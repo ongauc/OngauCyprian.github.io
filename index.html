@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cyprian Ong’au Morang’a — Portfolio</title>
+  <style>
+    :root { --bg:#0f1115; --card:#161a22; --text:#e6e6e6; --muted:#9aa4b2; --accent:#7aa2f7; --chip:#232838; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:1000px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;background:rgba(15,17,21,.7);backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid #222}
+    header .bar{display:flex;align-items:center;justify-content:space-between;min-height:56px}
+    nav a{margin-left:18px;color:var(--muted)}
+    .hero{display:grid;grid-template-columns:1fr;gap:24px;padding:40px 0}
+    @media(min-width:900px){.hero{grid-template-columns:1.2fr .8fr}}
+    .badge{display:inline-flex;align-items:center;gap:8px;border:1px solid #2b3142;border-radius:999px;padding:6px 10px;color:var(--muted);font-size:12px}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+    .chip{background:var(--chip);color:#c8d0dd;border:1px solid #2b3142;border-radius:999px;padding:4px 10px;font-size:12px}
+    .btn{display:inline-flex;align-items:center;gap:8px;border-radius:10px;border:1px solid #2b3142;padding:10px 14px;color:#e6e6e6}
+    .grid{display:grid;gap:16px}
+    @media(min-width:700px){.grid.cols-2{grid-template-columns:repeat(2,1fr)}.grid.cols-3{grid-template-columns:repeat(3,1fr)}}
+    .card{background:var(--card);border:1px solid #202534;border-radius:16px;padding:16px}
+    h1,h2{line-height:1.2;margin:0 0 8px}
+    h1{font-size:34px} h2{font-size:22px;margin-top:12px}
+    h3{margin:0 0 6px;font-size:16px}
+    p{margin:8px 0;color:#cbd3df}
+    small, .muted{color:var(--muted)}
+    ul{margin:8px 0 0 20px;color:#cbd3df}
+    footer{border-top:1px solid #222;color:var(--muted);padding:24px 0;margin-top:40px}
+    .section{padding:28px 0}
+    .row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap bar">
+      <strong>Cyprian Ong’au Morang’a</strong>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#certs">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <div class="badge">Open to opportunities</div>
+        <h1>Operations & Logistics Leader • Finance & Urban Sustainability</h1>
+        <p class="muted">Versatile professional in finance, operations, logistics, and project management. Drives KPI improvements, lean process optimization, and ESG‑aware decisions using strong data and technology skills.</p>
+        <div class="chips">
+          <span class="chip">Malmö, Sweden</span>
+          <span class="chip">Lean Six Sigma</span>
+          <span class="chip">Tableau</span>
+          <span class="chip">SAP S/4HANA</span>
+          <span class="chip">ESG Integration</span>
+        </div>
+        <div class="row" style="margin-top:10px">
+          <a class="btn" href="#projects">See projects</a>
+          <a class="btn" href="Cyprian_Ongau_CV.pdf" download>Download CV</a>
+        </div>
+        <p class="muted" style="margin-top:8px">
+          <a href="mailto:ongauc@gmail.com">ongauc@gmail.com</a> · +46 793 540 679 · 
+          <a href="https://linkedin.com/in/cyprian-ong-au-016b7185">LinkedIn</a>
+        </p>
+      </div>
+      <div class="card">
+        <h3>Highlights</h3>
+        <ul>
+          <li>Led hub operations meeting delivery accuracy, profitability & productivity KPIs.</li>
+          <li>Data-driven improvements using Tableau & Google Analytics.</li>
+          <li>Spearheaded process innovations and continuous improvement.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>Finance, operations, and logistics professional with experience across last‑mile delivery, insurance services, and education project coordination. Comfortable in cross‑functional leadership, stakeholder management, and continuous improvement.</p>
+      <div class="chips">
+        <span class="chip">Budgeting & Forecasting</span>
+        <span class="chip">Advanced Financial Modeling</span>
+        <span class="chip">Risk Analysis</span>
+        <span class="chip">Supply Chain</span>
+        <span class="chip">KPI Improvement</span>
+        <span class="chip">MySQL • R • Excel</span>
+        <span class="chip">Digital Transformation</span>
+        <span class="chip">Sustainability & ESG</span>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Site Manager — MoveByBike Europe AB</h3>
+          <small>Malmö, Sweden • Sep 2021 – Present</small>
+          <ul>
+            <li>Directed hub operations to meet delivery accuracy, profitability, and productivity KPIs.</li>
+            <li>Used Tableau & Google Analytics to identify bottlenecks and enhance efficiency.</li>
+            <li>Led process innovations and continuous improvement initiatives.</li>
+            <li>Ensured safety compliance with Swedish regulatory standards.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Traffic Manager — MoveByBike Europe AB</h3>
+          <small>Malmö, Sweden • Nov 2020 – Dec 2021</small>
+          <ul>
+            <li>Optimized shipping operations and workflow management for higher on‑time performance.</li>
+            <li>Applied data‑driven insights to improve core KPIs.</li>
+            <li>Developed training programs that raised driver performance and safety.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Operations Team Lead — MoveByBike Europe AB</h3>
+          <small>Malmö, Sweden • Sep 2019 – Nov 2020</small>
+          <ul>
+            <li>Oversaw daily last‑mile delivery operations, ensuring timeliness and customer satisfaction.</li>
+            <li>Mentored team members to improve performance and compliance.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Insurance Service Agent — Jubilee Life Insurance Co. Ltd.</h3>
+          <small>Nairobi, Kenya • Jan 2016 – Apr 2018</small>
+          <ul>
+            <li>Provided customized financial and insurance solutions for clients.</li>
+            <li>Conducted financial assessments and risk analysis.</li>
+            <li>Designed a sales strategy that improved performance and retention.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Project Coordinator — DALC Education</h3>
+          <small>Nairobi, Kenya • Aug 2013 – Sep 2015</small>
+          <ul>
+            <li>Coordinated construction projects from budgeting through delivery.</li>
+            <li>Controlled resources and expenses to keep projects on track.</li>
+            <li>Drove process evaluation and improvement recommendations.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="certs" class="section">
+      <h2>Certifications</h2>
+      <div class="grid cols-3">
+        <div class="card"><strong>Lean Six Sigma Green Belt</strong><br><span class="muted">Credential</span></div>
+        <div class="card"><strong>CPA Section 1</strong><br><span class="muted">Credential</span></div>
+        <div class="card"><strong>Financial Modeling & Corporate Finance</strong><br><span class="muted">Credential</span></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Omlastningscentral Bike Project — Eskilstuna Kommun (2023)</h3>
+          <p>Implemented a sustainable bike transportation solution to reduce city traffic congestion.</p>
+          <p class="muted">Focus: Operations • Urban Logistics • Sustainability</p>
+        </div>
+        <div class="card">
+          <h3>Stockholm Heat Project — Senseable Stockholm Lab (2024)</h3>
+          <p>Analyzed urban heat islands in Hammarby, Stockholm using data‑driven methods.</p>
+          <p class="muted">Focus: Data Analytics • Urban Planning • ESG</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>Malmö University</strong><br>
+          Master’s in Urban Planning & Sustainability — <span class="muted">Ongoing</span>
+        </div>
+        <div class="card">
+          <strong>Kisii University</strong><br>
+          B.Com (Finance, Banking & Management) — <span class="muted">2013</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Say hello</h3>
+          <p class="muted">I usually reply within 1–2 business days.</p>
+          <form onsubmit="event.preventDefault(); alert('This is a static demo form. Connect it to a service to receive submissions.');">
+            <div class="grid"><input style="padding:10px;border-radius:8px;border:1px solid #31384b;background:#0e121a;color:#e6e6e6" placeholder="Your name" /></div>
+            <div class="grid" style="margin-top:8px"><input type="email" style="padding:10px;border-radius:8px;border:1px solid #31384b;background:#0e121a;color:#e6e6e6" placeholder="Your email" /></div>
+            <div class="grid" style="margin-top:8px"><textarea rows="4" style="padding:10px;border-radius:8px;border:1px solid #31384b;background:#0e121a;color:#e6e6e6" placeholder="Your message"></textarea></div>
+            <div class="row" style="margin-top:10px"><button class="btn" type="submit">Send</button></div>
+          </form>
+        </div>
+        <div class="card">
+          <h3>Direct</h3>
+          <p><a href="mailto:ongauc@gmail.com">ongauc@gmail.com</a><br/>+46 793 540 679<br/><a href="https://linkedin.com/in/cyprian-ong-au-016b7185">LinkedIn</a></p>
+          <p class="muted">Malmö, Sweden</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="yr"></span> Cyprian Ong’au Morang’a. All rights reserved.</div>
+  </footer>
+  <script>document.getElementById('yr').textContent=new Date().getFullYear()</script>
+</body>
+</html>
